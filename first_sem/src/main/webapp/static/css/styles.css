@@ -1,0 +1,437 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.container.max-800 {
+    max-width: 800px;
+}
+
+.container.max-900 {
+    max-width: 900px;
+}
+
+.container.max-1000 {
+    max-width: 1000px;
+}
+
+.welcome-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.welcome-title {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.required {
+    color: #e74c3c;
+}
+
+.info-text {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+
+.additional-fields {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border-left: 4px solid #3498db;
+}
+
+.additional-fields h4 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+
+.error {
+    background-color: #ffe8e6;
+    color: #e74c3c;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-left: 4px solid #e74c3c;
+}
+
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.btn-create,
+.btn-save,
+.btn-primary {
+    background-color: #27ae60;
+}
+
+.btn-create:hover,
+.btn-save:hover,
+.btn-primary:hover {
+    background-color: #219a52;
+}
+
+.btn-cancel {
+    background-color: #95a5a6;
+}
+
+.btn-cancel:hover {
+    background-color: #7f8c8d;
+}
+
+.btn-delete,
+.btn-reject,
+.danger {
+    background-color: #e74c3c;
+}
+
+.btn-delete:hover,
+.btn-reject:hover,
+.danger:hover {
+    background-color: #c0392b;
+}
+
+.btn-approve {
+    background-color: #27ae60;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-approve:hover {
+    background-color: #219a52;
+}
+
+.btn-register {
+    background-color: #27ae60;
+}
+
+.btn-register:hover {
+    background-color: #219a52;
+}
+
+
+.button-group .btn {
+    flex: 1;
+}
+
+
+.menu-item {
+    display: block;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #2980b9;
+}
+
+
+.register-link,
+.login-link {
+    text-align: center;
+    margin-top: 25px;
+    color: #7f8c8d;
+}
+
+.register-link a,
+.login-link a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.register-link a:hover,
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+
+.section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.visits-table,
+.applications-table,
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.visits-table th,
+.visits-table td,
+.applications-table th,
+.applications-table td,
+.students-table th,
+.students-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.visits-table th,
+.applications-table th,
+.students-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.applications-table tr:hover,
+.students-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+
+.status-pending {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+.status-approved {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.status-rejected {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+
+.no-visits,
+.no-applications,
+.no-students {
+    text-align: center;
+    color: #7f8c8d;
+    padding: 40px;
+    font-style: italic;
+}
+
+
+.group-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #e3f2fd;
+    color: #1976d2;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.course-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #e8f5e8;
+    color: #2e7d32;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.student-name {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.student-email {
+    color: #7f8c8d;
+}
+
+
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+
+.container.max-400 {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+
+.form-group.small-margin {
+    margin-bottom: 15px;
+}
+
+input.small-padding,
+select.small-padding {
+    padding: 8px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+
+.table-responsive {
+    overflow-x: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.visits-table,
+.applications-table,
+.students-table {
+    width: auto;
+    min-width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+
+.visits-table th,
+.visits-table td,
+.applications-table th,
+.applications-table td,
+.students-table th,
+.students-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    white-space: normal;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+
+.visits-table th,
+.applications-table th,
+.students-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #2c3e50;
+    white-space: nowrap;
+}
+
+.applications-table tr:hover,
+.students-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+.applications-table {
+    width: auto !important;
+    min-width: 100% !important;
+    table-layout: auto !important;
+    white-space: normal !important;
+}
+
+
+.applications-table th,
+.applications-table td {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    padding: 12px 15px !important;
+    vertical-align: top !important;
+}

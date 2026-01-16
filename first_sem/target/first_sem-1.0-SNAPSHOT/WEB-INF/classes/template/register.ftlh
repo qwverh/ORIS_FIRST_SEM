@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация в системе</title>
-    <link rel="stylesheet" href="/first_sem_war/static/css/styles.css">
+    <link rel="stylesheet" href="${currentContext}/static/css/styles.css">
 </head>
 <body>
 <div class="container">
@@ -56,6 +56,6 @@
         Уже есть аккаунт? <a href="login">Войти</a>
     </div>
 </div>
-<script src="/first_sem_war/static/js/role.js"></script>
+<script src="${currentContext}/static/js/role.js"></script>
 </body>
 </html>

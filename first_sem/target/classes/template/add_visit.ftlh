@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Добавить посещение</title>
-    <link rel="stylesheet" href="/first_sem_war/static/css/styles.css">
+    <link rel="stylesheet" href="${currentContext}/static/css/styles.css">
 </head>
 <body>
 <div class="container">
@@ -29,6 +29,6 @@
     </form>
 </div>
 
-<script src="/first_sem_war/static/js/date.js"></script>
+<script src="${currentContext}/static/js/date.js"></script>
 </body>
 </html>
